@@ -1,0 +1,6 @@
+classes= 1
+train  = models/finalData/train.txt
+valid = models/finalData/test.txt
+names = models/finalData/finalData.names
+backup = models/finalData/backup_finalData/
+
