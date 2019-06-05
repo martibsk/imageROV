@@ -12,7 +12,7 @@ import darknet
 if __name__ == '__main__':
     model = 'sylinder'
     netMain, metaMain = detector.init_yolo(model)
-
+ged
     input_frame = 'sylinder.mp4'
     vs = detector.video2image(input_frame)
 

@@ -1,6 +1,6 @@
 classes= 1
 train  = models/sylinder/train.txt
 valid = models/sylinder/test.txt
-names = models/sylinder/finalData.names
+names = models/sylinder/sylinder.names
 backup = models/sylinder/backup_finalData/
 

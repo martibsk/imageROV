@@ -134,7 +134,7 @@ def YOLO(input_frame, netMain, metaMain):
     detections = darknet.detect_image(netMain, metaMain, darknet_image, thresh=0.25)
     image = cvDrawBoxes(detections, frame_resized)
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-
+    
     cv2.imshow('Demo', image)
 
     return detections
