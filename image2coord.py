@@ -10,7 +10,7 @@ import darknet
 
 
 if __name__ == '__main__':
-    model = 'finalData'
+    model = 'sylinder'
     netMain, metaMain = detector.init_yolo(model)
 
     input_frame = 'sylinder.mp4'
