@@ -1,6 +1,6 @@
 classes= 1
-train  = models/finalData/train.txt
-valid = models/finalData/test.txt
-names = models/finalData/finalData.names
-backup = models/finalData/backup_finalData/
+train  = models/sylinder/train.txt
+valid = models/sylinder/test.txt
+names = models/sylinder/finalData.names
+backup = models/sylinder/backup_finalData/
 
